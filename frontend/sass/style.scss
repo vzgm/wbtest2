@@ -1,0 +1,18 @@
+body {
+	padding:30px;
+	margin:0;
+	font-family:arial,sans-serif;
+}
+
+$background : blue;
+
+h3 {
+  background : $background;
+  color      : yellow;
+}
+
+.adblock {
+	border 		: 1px solid $background;
+	background 	: yellow;
+	padding 	: 20px;
+}
