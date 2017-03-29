@@ -34,4 +34,12 @@ Open the terminal. It will be used by webpack in watching mode.
 webpack
 ```
 
-### 6. Open index.html in a browser
+### 6. Run the Node static server
+
+Open the terminal. It will be used by static server.
+
+```
+static --port 8888 -H
+```
+Open this URL http://127.0.0.1:8888 in a browser.
+
