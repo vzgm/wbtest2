@@ -41,5 +41,5 @@ Open the terminal. It will be used by static server.
 ```
 static --port 8888 -H
 ```
-Open this URL http://127.0.0.1:8888 in a browser.
+Open URL http://127.0.0.1:8888/public/index.html in a browser.
 
