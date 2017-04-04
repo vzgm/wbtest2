@@ -1,0 +1,27 @@
+{
+  "name": "wbtest2",
+  "version": "1.0.0",
+  "description": "just a test webpack project",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.27.3",
+    "node-sass": "^4.5.1",
+    "style-loader": "^0.16.1",
+    "uglifyjs-webpack-plugin": "^0.4.0",
+    "sass-loader": "^6.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzgm/wbtest2.git"
+  },
+  "author": "VZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vzgm/wbtest2/issues"
+  },
+  "homepage": "https://github.com/vzgm/wbtest2#readme"
+}

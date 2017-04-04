@@ -150,10 +150,10 @@
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(4);
+var content = __webpack_require__(6);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, {});
+var update = __webpack_require__(5)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -171,20 +171,6 @@ if(false) {
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "body {\n  padding: 30px;\n  margin: 0;\n  font-family: arial,sans-serif; }\n\nh3 {\n  background: blue;\n  color: yellow; }\n\n.adblock {\n  border: 1px solid blue;\n  background: yellow;\n  padding: 20px; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -266,7 +252,7 @@ function toComment(sourceMap) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10).Buffer))
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -559,6 +545,20 @@ function updateLink(linkElement, options, obj) {
 	if(oldSrc)
 		URL.revokeObjectURL(oldSrc);
 }
+
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  padding: 30px;\n  margin: 0;\n  font-family: arial,sans-serif; }\n\nh3 {\n  background: blue;\n  color: yellow; }\n", ""]);
+
+// exports
 
 
 /***/ }),
@@ -2723,7 +2723,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	var wideBannerDiv = document.querySelector(".widebanner");
 	if(wideBannerDiv){
-	    __webpack_require__.e/* require.ensure */(0).then((function(require){
+	    __webpack_require__.e/* require.ensure */(1).then((function(require){
 			var widebanner = __webpack_require__(2);
 			widebanner();
 		}).bind(null, __webpack_require__)).catch(__webpack_require__.oe)
@@ -2733,7 +2733,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.getElementById('loginButton').onclick = function() {
 	
-	__webpack_require__.e/* require.ensure */(1).then((function(require){
+	__webpack_require__.e/* require.ensure */(0).then((function(require){
 		var bclick = __webpack_require__(1);
 		bclick();
 	}).bind(null, __webpack_require__)).catch(__webpack_require__.oe)
@@ -2742,3 +2742,4 @@ document.getElementById('loginButton').onclick = function() {
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=app.js.map

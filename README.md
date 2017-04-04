@@ -22,8 +22,8 @@ npm install webpack -g
 
 ### 4. Install plugins
 ```
-npm install --save-dev style-loader css-loader
-npm install --save-dev sass-loader node-sass
+npm install
+OR npm update
 ```
 
 ### 5. Run the Webpack

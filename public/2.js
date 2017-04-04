@@ -16,3 +16,4 @@ module.exports = function() {
 
 /***/ })
 ]);
+//# sourceMappingURL=2.js.map

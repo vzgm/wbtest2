@@ -1,17 +1,21 @@
-webpackJsonp([1],[
-/* 0 */,
-/* 1 */
+webpackJsonp([1],{
+
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 module.exports = function() {
-	var ttl= document.createElement("div");
-	ttl.textContent = 'Button is clicked';
-	ttl.className = "adblock";
-	document.body.appendChild(ttl);
+	var wideBannerDiv = document.querySelector(".widebanner");
+	if(wideBannerDiv){
+		var img = document.createElement('img');
+		img.src = '/public/img/banner600x120.png';
+  		wideBannerDiv.appendChild(img);
+	}
 }
 
 /***/ })
-]);
+
+});
+//# sourceMappingURL=1.js.map
