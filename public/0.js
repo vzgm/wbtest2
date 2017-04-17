@@ -1,26 +1,9 @@
 webpackJsonp([0],{
 
-/***/ 1:
+/***/ 19:
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-__webpack_require__( 15 ); 
-
-module.exports = function() {
-	var ttl= document.createElement("div");
-	ttl.textContent = 'Button is clicked';
-	ttl.className = "adblock";
-	document.body.appendChild(ttl);
-}
-
-/***/ }),
-
-/***/ 14:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(4)(undefined);
+exports = module.exports = __webpack_require__(17)(undefined);
 // imports
 
 
@@ -32,16 +15,33 @@ exports.push([module.i, ".adblock {\n\tborder \t\t: 1px solid blue;\n\tbackgroun
 
 /***/ }),
 
-/***/ 15:
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__( 20 ); 
+
+module.exports = function() {
+	var ttl= document.createElement("div");
+	ttl.textContent = 'Button is clicked';
+	ttl.className = "adblock";
+	document.body.appendChild(ttl);
+}
+
+/***/ }),
+
+/***/ 20:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(14);
+var content = __webpack_require__(19);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(5)(content, {});
+var update = __webpack_require__(18)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {

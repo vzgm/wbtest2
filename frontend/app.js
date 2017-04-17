@@ -1,6 +1,9 @@
 "use strict";
 
-require( './sass/style.scss' ); 
+require( './sass/style.scss' );
+require( './vendors/jquery-ui-1.12.1.custom/jquery-ui.min.css' );
+require( 'expose-loader?$!expose-loader?jQuery!./vendors/jquery-2.2.4.min.js' );
+require( 'jquery-ui' );
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -30,3 +33,8 @@ document.getElementById('loginButton').onclick = function() {
 	})
 	
 }
+
+jQuery(function() {
+  jQuery('.jtest').html('jQuery test');
+  jQuery( "#tabs" ).tabs();
+});
